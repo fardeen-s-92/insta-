@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+html,
+body {
+    background-color: #1ab89a;
+    display: grid;
+    height: 100%;
+    place-items: center;
+}
+
+.wrapper {
+    width: 300px;
+    background-color: wheat;
+    border-radius: 5px;
+}
+
+.title {
+    color: #fff;
+    line-height: 80px;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    width: 100%;
+    background-color: #159980;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.wrapper form {
+    padding: 30px 20px 25px 20px;
+}
+
+.wrapper form .row {
+    height: 45px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.wrapper form .row input {
+    height: 100%;
+    width: 80%;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-left: 43px;
+    border: none;
+}
+
+.wrapper form .row i {
+    position: absolute;
+    width: 40px;
+    height: 95%;
+    color: #fff;
+    font-size: 18px;
+    background-color: #159980;
+    border: 1px solid #159980;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button input {
+    height: 45px;
+    width: 97%;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    background-color: #159980;
+    color: #fff;
+    font-weight: 500;
+}
+
+.wrapper form .pass a {
+    color: #159980;
+    text-decoration: none;
+}
+
+.wrapper form .pass a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.wrapper form .Singup a {
+    color: #159980;
+    text-decoration: none;
+}
+
+.wrapper form .Singup a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}

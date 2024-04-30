@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    display: grid;
+    place-items: center;
+    height: 100%;
+}
+
+.container {
+    height: 400px;
+    width: 315px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: lightgray;
+}
+
+h1 {
+    height: 4rem;
+    width: 100%;
+    background-image: linear-gradient(30deg, #0400ff, #4ce3f7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+}
+
+.addtask {
+    margin-top: 10px;
+}
+
+.addtask input {
+    height: 30px;
+    width: 90%;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    padding: 1em;
+    background-color: #ccc;
+    box-shadow: inset 2px 5px 10px rgba(0, 0, 0, 0.3);
+    transition: 300ms ease-in-out;
+}
+
+.input:focus {
+    background-color: white;
+    transform: scale(1.05);
+    box-shadow: 13px 13px 100px #969696, -13px -13px 100px #ffffff;
+}
+
+.adbutton {
+    border: none;
+    color: #fff;
+    background-image: linear-gradient(30deg, #0400ff, #4ce3f7);
+    border-radius: 20px;
+    background-size: 100% auto;
+    font-family: inherit;
+    font-size: 17px;
+    padding: 0.6em 1.5em;
+    margin: 10px 96px;
+}
+
+.adbutton {
+    background-position: right center;
+    background-size: 200% auto;
+    -webkit-animation: pulse 2s infinite;
+    animation: pulse512 1.5s infinite;
+}
+
+@keyframes pulse512 {
+    0% {
+        box-shadow: 0 0 0 0 #05bada66;
+    }
+    70% {
+        box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
+    }
+}
+
+ul li {
+    margin-top: 0.3rem;
+    font-size: 25px;
+    font-weight: 600
+}
+
+.delete {
+    height: 28px;
+    width: 60px;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+    background-image: linear-gradient(30deg, #0400ff, #4ce3f7);
+}
